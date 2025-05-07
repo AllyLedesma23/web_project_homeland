@@ -1,0 +1,36 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  max-width: 990px;
+  margin: 92px auto;
+}
+
+.description__title {
+  font-family: "Inter black", sans-serif;
+  font-size: 54px;
+  line-height: 1.1;
+  max-width: 830px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.description__paragraph {
+  max-width: 740px;
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.description__paragraph_quote_left {
+  text-align: left;
+}
+
+.description__paragraph_author_right {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.description__paragraph_size_s {
+  font-size: 16px;
+  margin-top: 32px;
+}
