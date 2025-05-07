@@ -34,3 +34,19 @@
   font-size: 16px;
   margin-top: 32px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .description {
+    max-width: 290px;
+    margin: 64px auto;
+  }
+
+  .description__title {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .description__paragraph {
+    line-height: 1.2;
+  }
+}
