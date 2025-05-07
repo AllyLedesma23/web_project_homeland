@@ -33,6 +33,11 @@
   margin: 32px 0 64px;
 }
 
+.header__content-image {
+  max-width: 990px;
+  margin: auto;
+}
+
 .header__image {
   width: 100%;
 }
