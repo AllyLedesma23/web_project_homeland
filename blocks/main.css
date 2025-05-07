@@ -50,3 +50,20 @@
     line-height: 1.2;
   }
 }
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .description {
+    max-width: 720px;
+    margin-top: 90px;
+    margin-bottom: 88px;
+  }
+
+  .description__title {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+
+  .description__paragraph_author_right {
+    margin-top: 26px;
+  }
+}
