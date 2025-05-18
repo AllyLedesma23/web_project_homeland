@@ -6,3 +6,16 @@
   grid-gap: 16px;
   margin: 118px auto 92px;
 }
+
+.gallery__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .gallery {
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 64px auto 88px;
+  }
+}
