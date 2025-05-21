@@ -180,6 +180,7 @@
   .places__button {
     font-size: 14px;
     max-width: 289px;
+    margin-right: 71px;
   }
 
   .places__description-paragraph {
